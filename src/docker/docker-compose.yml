@@ -1,0 +1,17 @@
+--- #-------------------------------------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
+version: "3"
+
+services:
+  family_tree_db:
+    image: mongo:4.0.4
+    container_name: family_tree_db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=Password1
+      - MONGODB_DATABASE=my-family-tree
+    ports:
+      - 28017:27017

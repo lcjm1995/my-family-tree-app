@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Jane Doe",
+      "email": "janedoe@fake.com",
+      "gender": "female",
+      "password": "pass123",
+      "yearOfBirth": 1990,
+      "member": true
+    },
+    {
+      "id": 1,
+      "name": "Joe Doe",
+      "email": "joedoe@fake.com",
+      "gender": "male",
+      "password": "pass123",
+      "yearOfBirth": 1978,
+      "member": true
+    },
+    {
+      "id": 2,
+      "name": "Shaun Smith",
+      "email": "shaunsmith@fake.com",
+      "gender": "male",
+      "password": "pass123",
+      "yearOfBirth": 1995,
+      "member": true
+    },
+    {
+      "id": 3,
+      "name": "Wilbert Alphabet",
+      "email": "wilbertalphabet@fake.com",
+      "gender": "male",
+      "password": "pass123",
+      "yearOfBirth": 1980,
+      "member": true
+    },
+    {
+      "id": 4,
+      "name": "Rupert Doe",
+      "email": "rupertdoe@fake.com",
+      "gender": "male",
+      "password": "pass123",
+      "yearOfBirth": 1992,
+      "member": true
+    },
+    {
+      "id": 5,
+      "name": "Danielle Smith",
+      "email": "daniellesmith@fake.com",
+      "gender": "female",
+      "password": "pass123",
+      "yearOfBirth": 1988,
+      "member": true
+    }
+  ],
+
+  "ancestors": [
+    {
+      "name": "Albert Einstien",
+      "yearOfBirth": "1892",
+      "deceased": true,
+      "job": "Scientist",
+      "married": true,
+      "children": 0
+    },
+    {
+      "name": "Sienna Fake",
+      "yearOfBirth": "1972",
+      "deceased": false,
+      "job": "Accountant",
+      "married": false,
+      "children": 0
+    },
+    {
+      "name": "Roger Doe",
+      "yearOfBirth": "1942",
+      "deceased": true,
+      "job": "Glass Blower",
+      "married": true,
+      "children": 1
+    },
+    {
+      "name": "Wendy Einstien",
+      "yearOfBirth": "1932",
+      "deceased": true,
+      "job": "Nurse",
+      "married": true,
+      "children": 2
+    },
+    {
+      "name": "Blue Beard",
+      "yearOfBirth": "1769",
+      "deceased": true,
+      "job": "Pirate",
+      "married": false,
+      "children": 16
+    }
+  ]
+}
